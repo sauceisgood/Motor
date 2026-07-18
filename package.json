@@ -5,13 +5,15 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "vercel-build": "next build"
   },
   "dependencies": {
     "next": "14.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "playwright": "^1.40.0"
+    "puppeteer-core": "^21.6.0",
+    "@sparticuz/chromium": "^117.0.1"
   },
   "devDependencies": {
     "@types/node": "^20.10.0",
